@@ -127,7 +127,7 @@ def parse_arguments() -> argparse.Namespace:
   python main.py                    # 正常运行
   python main.py --debug            # 调试模式
   python main.py --dry-run          # 仅获取数据，不进行 AI 分析
-  python main.py --stocks 600519,000001  # 指定分析特定股票
+  python main.py --stocks 601600,300503,300260,01810,518880,562910,601628,300724,159770,300001,603688,159665,601799,600519,000001,09988,603527,688721,02367  # 指定分析特定股票
   python main.py --no-notify        # 不发送推送通知
   python main.py --single-notify    # 启用单股推送模式（每分析完一只立即推送）
   python main.py --schedule         # 启用定时任务模式
